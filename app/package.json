@@ -1,0 +1,18 @@
+{
+ "name": "html5-generator",
+ "version": "0.0.1",
+ "main": "index.html",
+ "description": "Generate html5 template",
+ "window": {
+     "title": "NW Timer",
+     "width": 500,
+     "height": 620,
+     "min-width": 500,
+     "max-width": 400,
+     "min-height": 620,
+     "max-height": 520,
+     "toolbar": false,
+     "frame": true
+ }
+}
+
