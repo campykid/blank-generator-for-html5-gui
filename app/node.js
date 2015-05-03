@@ -23,7 +23,7 @@ var fs = require('fs');
 
 // Созадает файл с болванкой.
 function createFile() {
-	fs.writeFile(path + "index.html", skelet, function(err) {
+	fs.writeFile(path +'/'+ "index.html", skelet, function(err) {
 	    if(err) throw err;
 	    console.log("The file was created!");
 	});
