@@ -1,4 +1,4 @@
-var template = require('template');
+var template = require('./template');
 var fs = require('fs');
 
 
