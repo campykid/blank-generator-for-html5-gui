@@ -17,4 +17,4 @@ var skelet = [
 '\n</html>'
 ].join('')
 
-module.exports.template = skelet;
+module.exports = skelet;
