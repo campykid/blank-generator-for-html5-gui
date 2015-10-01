@@ -2,17 +2,8 @@ var template = require('./template');
 var fs = require('fs');
 
 
-
-
-// Допилить: Проверяем количество юзеров в домашней папке, если больше чем один
-// уточняем у юзера - куда ложить файл
  var path = '../../';
- fs.readdir('/home', function (err, list) {
- 	if (list.length ===  1) {
-		path += '/' + list[0] + '/' + 'Шаблоны' + '/';
-	};
- })
-
+ 
 // Созадает файл с болванкой.
 function createFile() {
 	fs.writeFile(path + "index.html", template, function(err) {
