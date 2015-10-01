@@ -6,7 +6,7 @@ var fs = require('fs');
 
 // Допилить: Проверяем количество юзеров в домашней папке, если больше чем один
 // уточняем у юзера - куда ложить файл
- var path = '/home';
+ var path = '../../';
  fs.readdir('/home', function (err, list) {
  	if (list.length ===  1) {
 		path += '/' + list[0] + '/' + 'Шаблоны' + '/';
